@@ -54,6 +54,7 @@ io.on("connection", function (socket) {
 	});
 });
 
-server.listen(8889, () => {
-	console.log(`go to ${secure ? "wss" : "ws"}://localhost:8889`);
+server.listen(8080, () => {
+	console.log(`go to ${secure ? "wss" : "ws"}://localhost:8080`);
+	console.log(server.address())
 });

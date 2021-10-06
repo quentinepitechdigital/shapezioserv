@@ -5,11 +5,12 @@
 	"main": "server.js",
 	"scripts": {
 		"dev": "nodemon server",
-		"start": "node server.js"
+		"start": "node server"
 	},
 	"author": "",
 	"license": "UNLICENSED",
 	"dependencies": {
+		"git": "^0.1.5",
 		"peerjs-server": "^0.2.9",
 		"socket.io": "^3.0.3",
 		"uuid": "^8.3.1",
